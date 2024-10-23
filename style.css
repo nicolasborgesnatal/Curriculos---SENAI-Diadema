@@ -1,0 +1,138 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+}
+body{
+    height: 100vh;
+    background: grey;
+}
+.container{
+    background-color: #ffffff;
+    width: 70%;
+    min-width: 420px;
+    padding: 35px 50px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 218%;
+    border-radius: 10px;
+    box-shadow: 20px 30px 25px rgba(0,0,0,0.15);
+    border: 3.5px solid red;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: #1c093c;
+    margin: 0;
+}
+p{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+}
+form{
+    width: 100%;
+    position: relative;
+    margin: 30px auto 0 auto;
+}
+.row{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 20px 30px;
+    margin-bottom: 20px;
+}
+label{
+    color: #1c093c;
+    font-size: 14px;
+}
+textarea,
+input{
+    width: 100%;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1.2px solid grey;
+    margin-top: 5px;
+}
+textarea{
+    resize: none;
+}
+textarea:focus,
+input:focus{
+    outline: none;
+    border-color: red;
+}
+button{
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 3px;
+    margin: 8px;
+    border: 2.5px solid grey;
+    transition: background-color 0.3s;;
+}
+
+button:hover{
+    background-color: rgb(139, 2, 2);
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+}
+
+.containermenu {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Isso vai centralizar todos os itens do container */
+}
+
+header{
+    background-color: rgb(77, 76, 76);
+    width: 100%;
+    padding: 24px;
+}
+
+.logo img {
+    width: 215px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.logo {
+    flex-shrink: 0; /* Evita que o logo se redimensione */
+}
+
+.menu {
+    flex-grow: 1; /* Esta linha mantém a div 'menu' com largura máxima */
+    text-align: center; /* Alinha o texto ao centro da div */
+}
+
+footer {
+    background-color: rgb(77, 76, 76);
+    width: 100%;
+    padding: 25px 0;
+    color: white;
+    margin-top: 180%;
+}
+
+.containerfooter {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

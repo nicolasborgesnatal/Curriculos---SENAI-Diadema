@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criador de Currículos - SENAI Diadema</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="containermenu">
+            <div class="logo"><img src="logosenai.png"></div>
+            <div class="menu">
+                <h1 style="color: white; margin-right: 22%;">GERADOR DE CURRÍCULOS</h1>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>SENAI Diadema</h1>
+        <p>Manuel Garcia Filho</p>
+        <br>
+        <p>Preencha o formulário seguindo os exemplos das caixas de texto!</p>
+        <br>
+        <p>INFORMAÇÕES PESSOAIS</p>
+        <form>
+            <div class="row">
+                <div class="column">
+                    <label for="nome">Nome Completo (Identificador):</label>
+                    <input type="text" name="nome" id="nome" placeholder="Ex.: Mayara Ferreira">
+                </div>
+                <div class="column">
+                    <label for="email">Data de Nascimento:</label>
+                    <input type="text" name="nascimento" id="nascimento" placeholder="Ex.: 26/10/2006">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="endereco">Endereço Completo:</label>
+                    <input type="text" name="endereco" id="endereco" placeholder="Ex.: Rua Primavera, 54, Paulicéia, SBC - SP">
+                </div>
+                <div class="column">
+                    <label for="telefone">E-mail:</label>
+                    <input type="text" name="email" id="email" placeholder="Ex.: mayaraferreira@gmail.com">
+                </div>
+                
+            </div>
+            <div class="row">
+                
+                <div class="column">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" name="telefone" id="telefone" placeholder="Ex.: (11) 9 4297-6494">
+                </div>
+                <div class="column">
+                    <label for="subject">Linkedin (Opcional):</label>
+                    <input type="text" name="linkedin" id="linkedin" placeholder="Ex.: Insira o link do seu perfil">
+                </div>
+               
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="contact">Período Disponível Para Trabalhar:</label>
+                    <input type="tel" name="periodotrabalho" id="periodotrabalho" placeholder="Ex.: Indisponível (Patrocínio)">
+                </div>
+                <div class="column">
+                    <label for="contact">Objetivo:</label>
+                    <input type="tel" name="objetivo" id="objetivo" placeholder="Ex.: Aprendizagem Industrial em Mecânico de Man...">
+                </div>
+            </div>
+            <br>
+            <p>FORMAÇÃO ACADÊMICA</p>
+            <br>
+            <div class="row">
+                <div class="column">
+                    <label for="subject">Ensino Regular:</label>
+                    <input type="text" name="ensinoescola" id="ensinoescola" placeholder="Ex.: 2º ano do Ensino Médio">
+                </div>
+                <div class="column">
+                    <label for="contact">Nome da Escola:</label>
+                    <input type="tel" name="nomeescola" id="nomeescola" placeholder="Ex.: SESI Diadema">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="subject">Período da Escola:</label>
+                    <input type="text" name="periodoescola" id="periodoescola" placeholder="Ex.: Manhã">
+                </div>
+                <div class="column">
+                    <label for="contact">Conclusão da Escola:</label>
+                    <input type="tel" name="conclusaoescola" id="conclusaoescola" placeholder="Ex.: 12/2025">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="subject">Ensino Profissionalizante:</label>
+                    <input type="text" name="ensinosenai" id="ensinosenai" placeholder="Ex.: Técnico no Curso Eletromecânica">
+                </div>
+                <div class="column">
+                    <label for="contact">Nome da Escola SENAI:</label>
+                    <input type="tel" name="nomesenai" id="nomesenai" placeholder="Ex.: Manuel Garcia Filho">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="subject">Período do Curso do SENAI:</label>
+                    <input type="text" name="periodosenai" id="periodosenai" placeholder="Ex.: Noite">
+                </div>
+                <div class="column">
+                    <label for="contact">Conclusão do SENAI:</label>
+                    <input type="tel" name="conclusaosenai" id="conclusaosenai" placeholder="Ex.: 12/2025">
+                </div>
+            </div>
+            <br>
+            <p>EXPERIÊNCIAS / VOLUNTARIADOS</p>
+            <br>
+            
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Descreva Suas Experiências / Voluntariados:</label>
+                    <textarea name="experiencias" id="experiencias" placeholder="Ex.: Desenvolvedor de sites para ONGs
+Suporte técnico em comunidades carentes
+Aulas de programação para jovens
+Desenvolvedor de aplicativos para projetos sociais
+Suporte em eventos tecnológicos
+                    
+Obs.: Escreva como no exemplo, uma informação em baixo da outra." rows="7"></textarea>
+                </div>
+            </div>
+            <br>
+            <p>OUTROS CURSOS</p>
+            <br>
+            
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Descreva Seus Outros Cursos:</label>
+                    <textarea name="cursos" id="cursos" placeholder="Ex.: Curso de Desenvolvimento Web Completo
+Curso de Machine Learning
+Curso de Google Cloud / AWS / Microsoft Azure
+Curso de Cibersegurança
+Curso de Design UX/UI
+                    
+Obs.: Escreva como no exemplo, uma informação em baixo da outra." rows="7"></textarea>
+                </div>
+            </div>
+            <br>
+            <p>HABILIDADES E COMPETÊNCIAS</p>
+            <br>
+            
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Descreva Suas Habilidades e Competências:</label>
+                    <textarea name="habilidades" id="habilidades" placeholder="Ex.: Comunicação
+Colaboração e trabalho em equipe
+Criatividade
+Ética no trabalho
+Flexibilidade para mudanças
+
+Obs.: Escreva como no exemplo, uma informação em baixo da outra." rows="7"></textarea>
+                </div>
+            </div>
+            <div class="button-row">
+                <button id="criar">Criar Currículo</button>
+            </div>
+            <label for="contact" >Upload do Currículo: <input style="border: 1.2px solid red" type="file" id="fileUpload" accept=".pdf,.doc,.docx"> </label>
+            <br>
+        <br>
+            <div class="button-row">
+            
+                <button id="insert">Enviar Dados</button>
+                <button id="read">Visualizar</button>
+                <button id="update">Atualizar</button>
+                <button id="delete">Excluir</button>
+                </div>
+        </form>
+    </div>
+</div>
+
+    <footer>
+        <div class="containerfooter">
+            <div class="menu">
+                <p style="color: white;">&copy; 2024 - Desenvolvido por Nícolas Borges Natal - I4DSI - SENAI Diadema.</p>
+            </div>
+            <div class="sociais">
+            </div>
+        </div>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-storage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="configfirebase.js"></script>
+    <script src="script.js"></script>
+    <script src="pdf.js"></script>
+</body>
+</html>
